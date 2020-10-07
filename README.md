@@ -1,36 +1,32 @@
-Project1 - Analysis of King County Data
-Description
-This is my first project during the bootcamp. Here I'm working with the King County House Sales dataset. The focus is on EDA to demonstrate an entire Data Science Lifecycle. The project can also be divided into the following steps:
+[Image source](https://www.travellerzee.com/how-to-plan-a-trip-with-zero-budget/)
 
-Business Understanding
-Data Mining
-Data Cleaning
-Data Exploration / Analysis
-Feature Engineering
-Predictive Modelling
-Data Visualization
-The data
-The dataset can be found in the file "King_County_House_prices_dataset.csv", in this folder. The description of the column names can be found in the column_names.md file in this repository.
+# Crowdfunding with kickstarter
 
-Tasks
-Through statistical analysis/EDA, above please come up with AT LEAST 3 (you can definitely get bonus points for more than 3) recommendations for home sellers and/or buyers in King County. Then model this dataset with a multivariate linear regression to predict the sale price of houses as accurately as possible. Acceptable R squared values = 0.7 to 0.9 Optional: Split the dataset into a train and a test set. Use Root Mean Squared Error (RMSE) as your metric of success and try to minimize this score on your test data.
+Kickstarter is a US based global crowdfunding platform focused on bringing funding to creative projects. 
+Since the platform’s launch in 2009, the site has hosted over [189.131](https://www.kickstarter.com/help/stats?lang=de) successfully funded projects with over 5.316.550.434 $ and 18.623.561 million unique backers. 
+Kickstarter uses an “all-or-nothing” funding system. This means that funds are only dispersed for projects that meet the original funding goal set by the creator.
 
-Result
-The result of the project can be found in the attached jupyter notebbook and in the slides which are attached as well.
+Unfortunately, not every campaign comes out as a winner. 
 
-Links
-https://github.com/Linchen106/
+This is an exploratory data analysis of the kickstarter projects dataset for predicting if a kickstarter project is going to be successful or not.
 
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-We use cookies and similar technologies ("cookies") to provide and secure our websites, as well as to analyze the usage
+### Data & SetUp
+The dataset for this project was given by our head coaches. 
+55 csv files were loaded and combined into a single data frame using the pd.read_csv function in python. 
+The raw dataset could be found here. 
+
+### Get a feeling for my data & business understanding
+First of all we startedt to develope a rare understanding for the data & business case. 
+For example we checked the shape, null values und the columns. 
+To get an better feeling, we took our time to check each column and tried to figure out the meaning. 
+After that we started with the online research to get some background information about kickstarter. 
+
+### Data Preparation & Exploration
+In the second step it took quiet a while to explore all our features and our target variable (state: successful or failed). 
+In this notebook you can find everything in detail. 
+
+### Modelling & Hyperparameter Optimization
+Before we started with different models a feature selection was performed to select the predictors which play a significant role in explaining if a project is going to be successful or not. In this notbook you can find two different models (logistic regression and random forest) as our basemodel. And in this notebook you can find different models (AdaBoost, XGBoost and SVM) on our final model. For each method, we tweaked the value of parameters to get the best set out of it.
+
+Alright...let's dive in!
+
