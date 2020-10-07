@@ -1,4 +1,5 @@
-[Image source](https://www.travellerzee.com/how-to-plan-a-trip-with-zero-budget/)
+
+[](https://github.com/Ela-Bo/second_EDA_Project/blob/main/crowdfundin.png)
 
 # Crowdfunding with kickstarter
 
