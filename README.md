@@ -1,5 +1,6 @@
 
-[](https://github.com/Ela-Bo/second_EDA_Project/blob/main/crowdfundin.png)
+(https://github.com/Linchen106/Projekt-2/schwein_pg)
+
 
 # Crowdfunding with kickstarter
 
