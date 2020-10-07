@@ -1,5 +1,5 @@
 
-![](https://github.com/Linchen106/Projekt-2/Schwein_ks.jpg)
+![](https://github.com/Linchen106/Projekt-2/blob/main/Schwein_ks.jpg)
 
 
 # Crowdfunding with kickstarter
