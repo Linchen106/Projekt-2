@@ -30,7 +30,7 @@ In this [this notebook](https://github.com/Linchen106/Projekt-2/blob/main/EDA.ip
 ### Modelling & Hyperparameter Optimization
 Before we started with different models a feature selection was performed to select the predictors which play a significant role in explaining if a project is going to be successful or not. In this [this notebook](https://github.com/Linchen106/Projekt-2/blob/main/BaseModel.ipynb)  you can find two different models (logistic regression and random forest) as our basismodel. The results of our basemodel can be regarded as a upper limit for the following analysis due to data leaking reasons. In our final mdoel we skip the features usd_pledged_amount and backers_count. The feature staff_pick can not be used for prediction as well. It is not clear if a project will be picked when it is launched.
 
-In this notebook you can find different models ([AdaBoost](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_AdaBoost.ipynb), [XGBoost](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_XGBoost.ipynb), [Random Forest](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_RanFor.ipynb) For each method, we tweaked the value of parameters to get the best set out of it.
+In this notebook you can find different models ([AdaBoost](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_AdaBoost.ipynb), [XGBoost](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_XGBoost.ipynb), [Random Forest](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_RanFor.ipynb) and [SVM](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_SVM.ipynb)). For each method, we tweaked the value of parameters to get the best set out of it.
 
 Alright...let's dive in!
 
