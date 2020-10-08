@@ -28,7 +28,9 @@ In the second step it took quiet a while to explore all our features and our tar
 In this notebook you can find everything in detail. 
 
 ### Modelling & Hyperparameter Optimization
-Before we started with different models a feature selection was performed to select the predictors which play a significant role in explaining if a project is going to be successful or not. In this notbook you can find two different models (logistic regression and random forest) as our basemodel. And in this notebook you can find different models (AdaBoost, XGBoost and SVM) on our final model. For each method, we tweaked the value of parameters to get the best set out of it.
+Before we started with different models a feature selection was performed to select the predictors which play a significant role in explaining if a project is going to be successful or not. In this [this notbook](https://github.com/Linchen106/Projekt-2/blob/main/BaseModel.ipynb)  you can find two different models (logistic regression and random forest) as our basismodel.The results of our basemodel can be regarded as a upper limit for the following analysis due to data leaking reasons. In our final mdoel we skip the features usd_pledged_amount and backers_count. The feature staff_pick can not be used for prediction as well. It is not clear if a project will be picked when it is launched.
+
+In this notebook you can find different models (AdaBoost, XGBoost and SVM) on our final model. For each method, we tweaked the value of parameters to get the best set out of it.
 
 Alright...let's dive in!
 
