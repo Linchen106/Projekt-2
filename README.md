@@ -32,5 +32,7 @@ Before we started with different models a feature selection was performed to sel
 
 In this notebook you can find different models ([AdaBoost](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_AdaBoost.ipynb), [XGBoost](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_XGBoost.ipynb), [Random Forest](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_RanFor.ipynb), [Logistic Regression](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_LogR.ipynb) and [SVM](https://github.com/Linchen106/Projekt-2/blob/main/MainModel_SVM.ipynb)). For each method, we tweaked the value of parameters to get the best set out of it.
 
+The results for the models are shown in the [attachted table](https://github.com/Linchen106/Projekt-2/blob/main/results_project_2). The best results are **0.82** for **Recall** , **0.74** for **Precision**, **0.88** for **Accuracy** and **0.79** for the **F1-Shore**. 
+
 Alright...let's dive in!
 
